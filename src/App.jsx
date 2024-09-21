@@ -4,7 +4,7 @@ import CurrencyDropdown from "./CurrencyDropdown";
 function App() {
   return (
     <>
-      <h1>Currency Converter</h1>
+      <h1>Hello world</h1>
       <CurrencyDropdown />
     </>
   );

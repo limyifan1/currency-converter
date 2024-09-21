@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 function CurrencyConverter(props) {
   const [inputAmount, setInputAmount] = useState("");
   const [convertedAmount, setConvertedAmount] = useState("");
-
+  console.log(inputAmount);
   useEffect(() => {
     fetch(
       "https://v6.exchangerate-api.com/v6/0a54c301098c7ea1a4c430c2/pair/" +

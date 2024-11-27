@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <h1>Currency Converter</h1>
+      <h1>Currency Converter Page</h1>
       <MyContext.Provider
         value={{ currencyFrom, setCurrencyFrom, currencyTo, setCurrencyTo }}
       >

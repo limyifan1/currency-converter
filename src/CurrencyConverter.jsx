@@ -25,6 +25,7 @@ function CurrencyConverter() {
 
   return (
     <div className="currency-container">
+      Hello world
       <input
         value={inputAmount}
         placeholder="Enter amount"
